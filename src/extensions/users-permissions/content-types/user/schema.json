@@ -76,6 +76,12 @@
       "relation": "oneToMany",
       "target": "api::order.order",
       "mappedBy": "user"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "maxLength": 10,
+      "minLength": 10,
+      "required": true
     }
   }
 }
