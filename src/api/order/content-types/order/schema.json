@@ -16,12 +16,6 @@
       "type": "integer",
       "required": true
     },
-    "size": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::size.size",
-      "inversedBy": "order"
-    },
     "product": {
       "type": "relation",
       "relation": "oneToOne",

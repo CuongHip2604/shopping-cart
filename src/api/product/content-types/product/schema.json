@@ -32,12 +32,6 @@
       "type": "richtext",
       "required": true
     },
-    "sizes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::size.size",
-      "mappedBy": "product"
-    },
     "order": {
       "type": "relation",
       "relation": "oneToOne",
